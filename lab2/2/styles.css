@@ -1,0 +1,140 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #0a0a1a;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    background: white;
+    background-clip: text;
+    text-align: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+th {
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    color: #8f8f8f;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+tr:hover td {
+    background: rgba(255, 255, 255, 0.06);
+    transition: background 0.3s ease;
+}
+
+.id-badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: #8f8f8f;
+}
+
+.score {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.bar:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.score-text {
+    font-weight: 600;
+    font-size: 1.1rem;
+    z-index: 1;
+    color: black;
+}
+
+.gray { 
+    background: linear-gradient(45deg, #808080, #a0a0a0);
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.3);
+}
+
+.blue { 
+    background: linear-gradient(45deg, #4040ff, #7070ff);
+    box-shadow: 0 0 15px rgba(64, 64, 255, 0.3);
+}
+
+.green { 
+    background: linear-gradient(45deg, #008f5d, #00bf7d);
+    box-shadow: 0 0 15px rgba(0, 143, 93, 0.3);
+}
+
+.purple { 
+    background: linear-gradient(45deg, #800080, #a040a0);
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.3);
+}
+
+.red { 
+    background: linear-gradient(45deg, #ff0000, #ff4040);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card {
+        padding: 15px;
+    }
+    
+    td, th {
+        padding: 10px;
+    }
+    
+    .score-text {
+        font-size: 1rem;
+    }
+}
