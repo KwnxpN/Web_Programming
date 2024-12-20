@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <script src="http://10.0.15.21/lab/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://10.0.15.21/lab/bootstrap/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">แบบฟอร์มข้อมูลส่วนบุคคล</h2>
+        <form id="personalInfoForm" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="idCard" class="form-label">หมายเลขบัตรประชาชน</label>
+                <input type="text" class="form-control" id="idCard" required maxlength="13" pattern="[0-9]{13}">
+                <div class="error-message">กรุณากรอกหมายเลขบัตรประชาชน 13 หลัก</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="title" class="form-label">คำนำหน้านาม</label>
+                <select class="form-select" id="title" required>
+                    <option value="">เลือกคำนำหน้านาม</option>
+                    <option value="นาย">นาย</option>
+                    <option value="นาง">นาง</option>
+                    <option value="นางสาว">นางสาว</option>
+                    <option value="เด็กชาย">เด็กชาย</option>
+                    <option value="เด็กหญิง">เด็กหญิง</option>
+                </select>
+                <div class="error-message">กรุณาเลือกคำนำหน้านาม</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="firstName" class="form-label">ชื่อ</label>
+                <input type="text" class="form-control" id="firstName" required minlength="2" maxlength="20">
+                <div class="error-message">กรุณากรอกชื่อ ความยาว 2-20 ตัวอักษร</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="lastName" class="form-label">นามสกุล</label>
+                <input type="text" class="form-control" id="lastName" required minlength="2" maxlength="30">
+                <div class="error-message">กรุณากรอกนามสกุล ความยาว 2-30 ตัวอักษร</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="address" class="form-label">ที่อยู่</label>
+                <textarea class="form-control" id="address" required minlength="15" rows="3"></textarea>
+                <div class="error-message">กรุณากรอกที่อยู่ ความยาวไม่ต่ำกว่า 15 ตัวอักษร</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="subDistrict" class="form-label">ตำบล/แขวง</label>
+                <input type="text" class="form-control" id="subDistrict" required minlength="2">
+                <div class="error-message">กรุณากรอกตำบล/แขวง ความยาวไม่ต่ำกว่า 2 ตัวอักษร</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="district" class="form-label">อำเภอ/เขต</label>
+                <input type="text" class="form-control" id="district" required minlength="2">
+                <div class="error-message">กรุณากรอกอำเภอ/เขต ความยาวไม่ต่ำกว่า 2 ตัวอักษร</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="province" class="form-label">จังหวัด</label>
+                <select class="form-select" id="province" required>
+                    <option value="">เลือกจังหวัด</option>
+                </select>
+                <div class="error-message">กรุณาเลือกจังหวัด</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="zipCode" class="form-label">รหัสไปรษณีย์</label>
+                <input type="text" class="form-control" id="zipCode" required pattern="[0-9]{5}" maxlength="5">
+                <div class="error-message">กรุณากรอกรหัสไปรษณีย์ 5 หลัก</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">บันทึกข้อมูล</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

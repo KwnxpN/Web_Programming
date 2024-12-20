@@ -1,0 +1,67 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.bars-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bar {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.bar span {
+    white-space: nowrap;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.view-button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sudsoi {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.sudsoi.show {
+    opacity: 1;
+}
+
+.sudsoi img {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.view-button:hover {
+    background-color: #e0e0e0;
+}
+
+.bar.expanded {
+    width: var(--expanded-width, 100px);
+}
+
+.bar.black {
+    background-color: black;
+}
