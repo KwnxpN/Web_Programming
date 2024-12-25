@@ -1,0 +1,19 @@
+{
+    "topMenuItems": [
+          {
+            "name": "Beef Burger",
+            "imageUrl": "/api/placeholder/400/300",
+            "description": "Juicy ground beef patty with melted cheese, fresh lettuce, tomatoes, onions, and pickles, served on a toasted brioche bun with special sauce"
+          },
+          {
+            "name": "Fish and Chips",
+            "imageUrl": "/api/placeholder/400/300",
+            "description": "Beer-battered cod fillets fried until golden and crispy, served with thick-cut potato chips, tartar sauce, and malt vinegar"
+          },
+          {
+            "name": "Pad Kra Pao",
+            "imageUrl": "/api/placeholder/400/300",
+            "description": "Thai holy basil stir-fry with minced chicken or pork, chili, garlic, served over rice and topped with a fried egg"
+          }
+    ]
+}

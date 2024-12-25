@@ -9,7 +9,7 @@
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="tw_config.js"></script>
-    <script src="app.js"></script>
+    <script type="module" src="./app.js"></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -20,9 +20,17 @@
     </nav>
 
     <!-- Top Menu -->
-     <section class="bg-red-600">   
-        <p class="font-bold text-2xl">Top Menu</p>
-        <div id="menu-container" class="bg-red-300 w-full flex justify-between gap-6 p-4">
+     <section>
+        <p class="font-bold text-2xl p-4 pb-0">Top Menu</p>
+        <div id="top-menu-container" class="w-full flex justify-between gap-6 p-4">
+
+        </div>
+     </section>
+
+     <!-- All menus -->
+     <section>
+        <p class="font-bold text-2xl p-4 py-0">All Menu</p>
+        <div id="all-menu-container" class="w-full flex justify-between gap-6 p-4">
 
         </div>
      </section>
