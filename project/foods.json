@@ -1,284 +1,284 @@
 {
-    "allMenuItems": [
-      {
-        "name": "Pad Thai",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Classic Thai stir-fried rice noodles with shrimp, tofu, eggs, and bean sprouts, seasoned with tamarind sauce and served with crushed peanuts and lime"
-      },
-      {
-        "name": "Sushi Roll",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Fresh fish and seasoned rice wrapped in nori seaweed, often including avocado, cucumber, and tobiko, served with wasabi and pickled ginger"
-      },
-      {
-        "name": "Margherita Pizza",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Traditional Neapolitan pizza topped with San Marzano tomatoes, fresh buffalo mozzarella, basil leaves, and extra virgin olive oil on a thin crust"
-      },
-      {
-        "name": "Beef Burger",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Juicy ground beef patty with melted cheese, fresh lettuce, tomatoes, onions, and pickles, served on a toasted brioche bun with special sauce"
-      },
-      {
-        "name": "Caesar Salad",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Crispy romaine lettuce tossed in creamy Caesar dressing with shaved parmesan cheese, crunchy croutons, and optional grilled chicken or anchovies"
-      },
-      {
-        "name": "Tom Yum Goong",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Hot and sour Thai soup with jumbo shrimp, mushrooms, lemongrass, kaffir lime leaves, galangal, and chili paste, garnished with cilantro"
-      },
-      {
-        "name": "Paella",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Traditional Spanish rice dish made with saffron, mixed seafood, chorizo, and vegetables, cooked in a large flat pan until crispy on the bottom"
-      },
-      {
-        "name": "Ramen",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Japanese noodle soup featuring rich pork bone broth, tender chashu pork, soft-boiled egg, nori, bamboo shoots, and green onions"
-      },
-      {
-        "name": "Chicken Tikka Masala",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Tandoori-roasted chicken pieces in a rich, creamy tomato-based curry sauce with aromatic Indian spices, served with naan bread and basmati rice"
-      },
-      {
-        "name": "Fish and Chips",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Beer-battered cod fillets fried until golden and crispy, served with thick-cut potato chips, tartar sauce, and malt vinegar"
-      },
-      {
-        "name": "Greek Moussaka",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Layered casserole with eggplant, spiced ground lamb, potatoes, and topped with creamy béchamel sauce, baked until golden brown"
-      },
-      {
-        "name": "Pho",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Vietnamese rice noodle soup with tender beef slices, aromatic herbs, bean sprouts, and rice noodles in a clear, flavorful bone broth"
-      },
-      {
-        "name": "Tacos",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Soft corn tortillas filled with seasoned meat, fresh onions, cilantro, and lime, topped with salsa verde or roja and optional guacamole"
-      },
-      {
-        "name": "Pasta Carbonara",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Classic Roman pasta dish with eggs, pecorino cheese, guanciale, and black pepper, creating a creamy sauce without using any cream"
-      },
-      {
-        "name": "Green Curry",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Thai coconut curry with green chilies, bamboo shoots, eggplant, and choice of meat or tofu, served with jasmine rice"
-      },
-      {
-        "name": "Dim Sum",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Variety of small Chinese dishes including dumplings, buns, and rolls, typically served in bamboo steamer baskets during yum cha"
-      },
-      {
-        "name": "Falafel",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Deep-fried balls made from ground chickpeas, herbs, and spices, served in pita bread with tahini sauce, hummus, and fresh vegetables"
-      },
-      {
-        "name": "Bibimbap",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Korean rice bowl topped with sautéed vegetables, marinated meat, gochujang sauce, and a fried egg, served in a hot stone bowl"
-      },
-      {
-        "name": "Croissant",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Flaky, buttery French pastry made through a lamination process, creating multiple layers that become light and airy when baked"
-      },
-      {
-        "name": "Butter Chicken",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Tandoori chicken pieces in a rich, creamy tomato-based curry sauce with butter and aromatic spices, served with naan bread"
-      },
-      {
-        "name": "Gyoza",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Japanese dumplings filled with ground meat and vegetables, pan-fried until crispy on the bottom and served with soy-vinegar dipping sauce"
-      },
-      {
-        "name": "Beef Stroganoff",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Russian dish of sautéed beef strips in a sour cream-based sauce with mushrooms and onions, served over egg noodles"
-      },
-      {
-        "name": "Ceviche",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Fresh raw fish cured in citrus juices, mixed with onions, chili peppers, and cilantro, served with sweet potato and corn"
-      },
-      {
-        "name": "Schnitzel",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Thinly pounded veal cutlet breaded and fried until golden brown, traditionally served with potato salad and lingonberry jam"
-      },
-      {
-        "name": "Mango Sticky Rice",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Thai dessert of sweet glutinous rice soaked in coconut milk, served with fresh ripe mango slices and topped with crispy mung beans"
-      },
-      {
-        "name": "Lasagna",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Italian pasta dish layered with meat sauce, ricotta cheese, mozzarella, and parmesan between sheets of pasta, baked until bubbly"
-      },
-      {
-        "name": "Peking Duck",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Chinese roasted duck with crispy skin, served with thin pancakes, scallions, cucumber, and hoisin sauce"
-      },
-      {
-        "name": "Gazpacho",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Traditional cold Spanish soup made with ripe tomatoes, cucumbers, peppers, and garlic, served with croutons and olive oil"
-      },
-      {
-        "name": "Churros",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Spanish fried dough pastry, coated in cinnamon sugar and served with thick hot chocolate or dulce de leche for dipping"
-      },
-      {
-        "name": "Shrimp Tempura",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Japanese-style battered and deep-fried shrimp, creating a light and crispy coating, served with tempura sauce and grated daikon"
-      },
-      {
-        "name": "Goulash",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Hungarian beef stew seasoned with paprika and other spices, cooked with carrots, potatoes, and tomatoes until tender"
-      },
-      {
-        "name": "Pad Kra Pao",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Thai holy basil stir-fry with minced chicken or pork, chili, garlic, served over rice and topped with a fried egg"
-      },
-      {
-        "name": "Risotto",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Italian rice dish slowly cooked in broth until creamy, often finished with butter, parmesan cheese, and various ingredients like mushrooms"
-      },
-      {
-        "name": "Samosas",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Indian triangular pastries filled with spiced potatoes, peas, and sometimes meat, deep-fried until golden and served with chutney"
-      },
-      {
-        "name": "French Onion Soup",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Rich beef broth with caramelized onions, topped with crusty bread and melted Gruyère cheese, baked until golden and bubbly"
-      },
-      {
-        "name": "Beef Rendang",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Indonesian slow-cooked beef in coconut milk and spices until tender and caramelized, traditionally served with rice"
-      },
-      {
-        "name": "California Roll",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Inside-out sushi roll with imitation crab meat, avocado, and cucumber, rolled in rice and topped with sesame seeds"
-      },
-      {
-        "name": "Tiramisu",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Italian dessert made with coffee-soaked ladyfingers layered with mascarpone cream and dusted with cocoa powder"
-      },
-      {
-        "name": "Spring Rolls",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Fresh Vietnamese rolls with rice noodles, shrimp, pork, herbs, and vegetables wrapped in rice paper, served with peanut dipping sauce"
-      },
-      {
-        "name": "Greek Souvlaki",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Grilled skewers of marinated meat served in pita bread with tomatoes, onions, and tzatziki sauce"
-      },
-      {
-        "name": "Eggs Benedict",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Poached eggs and Canadian bacon on English muffins, topped with hollandaise sauce and served with breakfast potatoes"
-      },
-      {
-        "name": "Tom Kha Gai",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Thai coconut soup with chicken, mushrooms, galangal, lemongrass, and lime leaves, finished with chili oil and cilantro"
-      },
-      {
-        "name": "Fish Tacos",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Battered and fried fish in corn tortillas with cabbage slaw, Mexican crema, and pico de gallo"
-      },
-      {
-        "name": "Beef Pho",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Vietnamese rice noodle soup with sliced beef, herbs, and bean sprouts in a fragrant star anise and ginger-spiced broth"
-      },
-      {
-        "name": "Shakshuka",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "North African dish of eggs poached in spicy tomato sauce with peppers and onions, served with crusty bread for dipping"
-      },
-      {
-        "name": "Pad See Ew",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Thai stir-fried wide rice noodles with Chinese broccoli, eggs, and choice of meat in sweet soy sauce"
-      },
-      {
-        "name": "Crème Brûlée",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "French vanilla custard dessert topped with caramelized sugar that creates a brittle crust when cracked"
-      },
-      {
-        "name": "Tandoori Chicken",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Indian yogurt-marinated chicken with spices, roasted in a clay oven until tender and charred, served with mint chutney"
-      },
-      {
-        "name": "Beef Tataki",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Japanese appetizer of briefly seared beef sliced thin, served with ponzu sauce, green onions, and garlic chips"
-      },
-      {
-        "name": "Spanakopita",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Greek savory pastry made with layers of flaky phyllo dough filled with spinach, feta cheese, and herbs"
-      },
-      {
-        "name": "Korean BBQ",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Assorted marinated meats grilled at the table, served with banchan side dishes, lettuce wraps, and dipping sauces"
-      },
-      {
-        "name": "Poke Bowl",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Hawaiian dish of diced raw fish, rice, seaweed, cucumber, avocado, and various toppings with soy-sesame dressing"
-      },
-      {
-        "name": "Beef Wellington",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Beef tenderloin coated with mushroom duxelles and wrapped in prosciutto and puff pastry, baked until golden brown"
-      },
-      {
-        "name": "Borscht",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Ukrainian beet soup with cabbage, potatoes, and other vegetables, served hot or cold with sour cream and fresh dill"
-      },
-      {
-        "name": "Xiaolongbao",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Shanghai soup dumplings filled with pork and flavorful gelatinized broth that becomes liquid when steamed"
-      },
-      {
-        "name": "Lamb Tagine",
-        "imageUrl": "/api/placeholder/400/300",
-        "description": "Moroccan slow"
-      }
+  "allMenuItems": [
+    {
+      "name": "Pad Thai",
+      "imageUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?q=80",
+      "description": "Classic Thai stir-fried rice noodles with shrimp, tofu, eggs, and bean sprouts, seasoned with tamarind sauce and served with crushed peanuts and lime"
+    },
+    {
+      "name": "Sushi Roll",
+      "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80",
+      "description": "Fresh fish and seasoned rice wrapped in nori seaweed, often including avocado, cucumber, and tobiko, served with wasabi and pickled ginger"
+    },
+    {
+      "name": "Margherita Pizza",
+      "imageUrl": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?q=80",
+      "description": "Traditional Neapolitan pizza topped with San Marzano tomatoes, fresh buffalo mozzarella, basil leaves, and extra virgin olive oil on a thin crust"
+    },
+    {
+      "name": "Beef Burger",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80",
+      "description": "Juicy ground beef patty with melted cheese, fresh lettuce, tomatoes, onions, and pickles, served on a toasted brioche bun with special sauce"
+    },
+    {
+      "name": "Caesar Salad",
+      "imageUrl": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?q=80",
+      "description": "Crispy romaine lettuce tossed in creamy Caesar dressing with shaved parmesan cheese, crunchy croutons, and optional grilled chicken or anchovies"
+    },
+    {
+      "name": "Tom Yum Goong",
+      "imageUrl": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?q=80",
+      "description": "Hot and sour Thai soup with jumbo shrimp, mushrooms, lemongrass, kaffir lime leaves, galangal, and chili paste, garnished with cilantro"
+    },
+    {
+      "name": "Paella",
+      "imageUrl": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?q=80",
+      "description": "Traditional Spanish rice dish made with saffron, mixed seafood, chorizo, and vegetables, cooked in a large flat pan until crispy on the bottom"
+    },
+    {
+      "name": "Ramen",
+      "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80",
+      "description": "Japanese noodle soup featuring rich pork bone broth, tender chashu pork, soft-boiled egg, nori, bamboo shoots, and green onions"
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80",
+      "description": "Tandoori-roasted chicken pieces in a rich, creamy tomato-based curry sauce with aromatic Indian spices, served with naan bread and basmati rice"
+    },
+    {
+      "name": "Fish and Chips",
+      "imageUrl": "https://images.unsplash.com/photo-1579208030886-b937da0925dc?q=80",
+      "description": "Beer-battered cod fillets fried until golden and crispy, served with thick-cut potato chips, tartar sauce, and malt vinegar"
+    },
+    {
+      "name": "Greek Moussaka",
+      "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80",
+      "description": "Layered casserole with eggplant, spiced ground lamb, potatoes, and topped with creamy béchamel sauce, baked until golden brown"
+    },
+    {
+      "name": "Pho",
+      "imageUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80",
+      "description": "Vietnamese rice noodle soup with tender beef slices, aromatic herbs, bean sprouts, and rice noodles in a clear, flavorful bone broth"
+    },
+    {
+      "name": "Tacos",
+      "imageUrl": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?q=80",
+      "description": "Soft corn tortillas filled with seasoned meat, fresh onions, cilantro, and lime, topped with salsa verde or roja and optional guacamole"
+    },
+    {
+      "name": "Pasta Carbonara",
+      "imageUrl": "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80",
+      "description": "Classic Roman pasta dish with eggs, pecorino cheese, guanciale, and black pepper, creating a creamy sauce without using any cream"
+    },
+    {
+      "name": "Green Curry",
+      "imageUrl": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?q=80",
+      "description": "Thai coconut curry with green chilies, bamboo shoots, eggplant, and choice of meat or tofu, served with jasmine rice"
+    },
+    {
+      "name": "Dim Sum",
+      "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80",
+      "description": "Variety of small Chinese dishes including dumplings, buns, and rolls, typically served in bamboo steamer baskets during yum cha"
+    },
+    {
+      "name": "Falafel",
+      "imageUrl": "https://images.unsplash.com/photo-1593001874117-c99c800c7b54?q=80",
+      "description": "Deep-fried balls made from ground chickpeas, herbs, and spices, served in pita bread with tahini sauce, hummus, and fresh vegetables"
+    },
+    {
+      "name": "Bibimbap",
+      "imageUrl": "https://images.unsplash.com/photo-1553163147-622ab57be1c7?q=80",
+      "description": "Korean rice bowl topped with sautéed vegetables, marinated meat, gochujang sauce, and a fried egg, served in a hot stone bowl"
+    },
+    {
+      "name": "Croissant",
+      "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80",
+      "description": "Flaky, buttery French pastry made through a lamination process, creating multiple layers that become light and airy when baked"
+    },
+    {
+      "name": "Butter Chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80",
+      "description": "Tandoori chicken pieces in a rich, creamy tomato-based curry sauce with butter and aromatic spices, served with naan bread"
+    },
+    {
+      "name": "Gyoza",
+      "imageUrl": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80",
+      "description": "Japanese dumplings filled with ground meat and vegetables, pan-fried until crispy on the bottom and served with soy-vinegar dipping sauce"
+    },
+    {
+      "name": "Beef Stroganoff",
+      "imageUrl": "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80",
+      "description": "Russian dish of sautéed beef strips in a sour cream-based sauce with mushrooms and onions, served over egg noodles"
+    },
+    {
+      "name": "Ceviche",
+      "imageUrl": "https://images.unsplash.com/photo-1553184118-d20774c4c1db?q=80",
+      "description": "Fresh raw fish cured in citrus juices, mixed with onions, chili peppers, and cilantro, served with sweet potato and corn"
+    },
+    {
+      "name": "Schnitzel",
+      "imageUrl": "https://images.unsplash.com/photo-1599921841143-819065a55cc6?q=80",
+      "description": "Thinly pounded veal cutlet breaded and fried until golden brown, traditionally served with potato salad and lingonberry jam"
+    },
+    {
+      "name": "Mango Sticky Rice",
+      "imageUrl": "https://images.unsplash.com/photo-1596797038530-2c107229654b?q=80",
+      "description": "Thai dessert of sweet glutinous rice soaked in coconut milk, served with fresh ripe mango slices and topped with crispy mung beans"
+    },
+    {
+      "name": "Lasagna",
+      "imageUrl": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?q=80",
+      "description": "Italian pasta dish layered with meat sauce, ricotta cheese, mozzarella, and parmesan between sheets of pasta, baked until bubbly"
+    },
+    {
+      "name": "Peking Duck",
+      "imageUrl": "https://images.unsplash.com/photo-1582476387015-4ec094518cc4?q=80",
+      "description": "Chinese roasted duck with crispy skin, served with thin pancakes, scallions, cucumber, and hoisin sauce"
+    },
+    {
+      "name": "Gazpacho",
+      "imageUrl": "https://images.unsplash.com/photo-1583775607896-f15c043778e5?q=80",
+      "description": "Traditional cold Spanish soup made with ripe tomatoes, cucumbers, peppers, and garlic, served with croutons and olive oil"
+    },
+    {
+      "name": "Churros",
+      "imageUrl": "https://images.unsplash.com/photo-1624371174534-1b913973efc5?q=80",
+      "description": "Spanish fried dough pastry, coated in cinnamon sugar and served with thick hot chocolate or dulce de leche for dipping"
+    },
+    {
+      "name": "Shrimp Tempura",
+      "imageUrl": "https://images.unsplash.com/photo-1584583570840-0a3f5f14c602?q=80",
+      "description": "Japanese-style battered and deep-fried shrimp, creating a light and crispy coating, served with tempura sauce and grated daikon"
+    },
+    {
+      "name": "Goulash",
+      "imageUrl": "https://images.unsplash.com/photo-1588170465025-4e4389560ce0?q=80",
+      "description": "Hungarian beef stew seasoned with paprika and other spices, cooked with carrots, potatoes, and tomatoes until tender"
+    },
+    {
+      "name": "Pad Kra Pao",
+      "imageUrl": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?q=80",
+      "description": "Thai holy basil stir-fry with minced chicken or pork, chili, garlic, served over rice and topped with a fried egg"
+    },
+    {
+      "name": "Risotto",
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80",
+      "description": "Italian rice dish slowly cooked in broth until creamy, often finished with butter, parmesan cheese, and various ingredients like mushrooms"
+    },
+    {
+      "name": "Samosas",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80",
+      "description": "Indian triangular pastries filled with spiced potatoes, peas, and sometimes meat, deep-fried until golden and served with chutney"
+    },
+    {
+      "name": "French Onion Soup",
+      "imageUrl": "https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80",
+      "description": "Rich beef broth with caramelized onions, topped with crusty bread and melted Gruyère cheese, baked until golden and bubbly"
+    },
+    {
+      "name": "Beef Rendang",
+      "imageUrl": "https://images.unsplash.com/photo-1628557010595-69aa2401eeb2?q=80",
+      "description": "Indonesian slow-cooked beef in coconut milk and spices until tender and caramelized, traditionally served with rice"
+    },
+    {
+      "name": "California Roll",
+      "imageUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?q=80",
+      "description": "Inside-out sushi roll with imitation crab meat, avocado, and cucumber, rolled in rice and topped with sesame seeds"
+    },
+    {
+      "name": "Tiramisu",
+      "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80",
+      "description": "Italian dessert made with coffee-soaked ladyfingers layered with mascarpone cream and dusted with cocoa powder"
+    },
+    {
+      "name": "Spring Rolls",
+      "imageUrl": "https://images.unsplash.com/photo-1544146892-5d2670734387?q=80",
+      "description": "Fresh Vietnamese rolls with rice noodles, shrimp, pork, herbs, and vegetables wrapped in rice paper, served with peanut dipping sauce"
+    },
+    {
+      "name": "Greek Souvlaki",
+      "imageUrl": "https://images.unsplash.com/photo-1604329756474-a4d966dc1ff5?q=80",
+      "description": "Grilled skewers of marinated meat served in pita bread with tomatoes, onions, and tzatziki sauce"
+    },
+    {
+      "name": "Eggs Benedict",
+      "imageUrl": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?q=80",
+      "description": "Poached eggs and Canadian bacon on English muffins, topped with hollandaise sauce and served with breakfast potatoes"
+    },
+    {
+      "name": "Tom Kha Gai",
+      "imageUrl": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?q=80",
+      "description": "Thai coconut soup with chicken, mushrooms, galangal, lemongrass, and lime leaves, finished with chili oil and cilantro"
+    },
+    {
+      "name": "Fish Tacos",
+      "imageUrl": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?q=80",
+      "description": "Battered and fried fish in corn tortillas with cabbage slaw, Mexican crema, and pico de gallo"
+    },
+    {
+      "name": "Beef Pho",
+      "imageUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?q=80",
+      "description": "Vietnamese rice noodle soup with sliced beef, herbs, and bean sprouts in a fragrant star anise and ginger-spiced broth"
+    },
+    {
+      "name": "Shakshuka",
+      "imageUrl": "https://images.unsplash.com/photo-1590412200988-a436970781fa?q=80",
+      "description": "North African dish of eggs poached in spicy tomato sauce with peppers and onions, served with crusty bread for dipping"
+    },
+    {
+      "name": "Pad See Ew",
+      "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?q=80",
+      "description": "Thai stir-fried wide rice noodles with Chinese broccoli, eggs, and choice of meat in sweet soy sauce"
+    },
+    {
+      "name": "Crème Brûlée",
+      "imageUrl": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80",
+      "description": "French vanilla custard dessert topped with caramelized sugar that creates a brittle crust when cracked"
+    },
+    {
+      "name": "Tandoori Chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?q=80",
+      "description": "Indian yogurt-marinated chicken with spices, roasted in a clay oven until tender and charred, served with mint chutney"
+    },
+    {
+      "name": "Beef Tataki",
+      "imageUrl": "https://images.unsplash.com/photo-1565702773646-06eb7e8bb252?q=80",
+      "description": "Japanese appetizer of briefly seared beef sliced thin, served with ponzu sauce, green onions, and garlic chips"
+    },
+    {
+      "name": "Spanakopita",
+      "imageUrl": "https://images.unsplash.com/photo-1632323091845-f636f89749fa?q=80",
+      "description": "Greek savory pastry made with layers of flaky phyllo dough filled with spinach, feta cheese, and herbs"
+    },
+    {
+      "name": "Korean BBQ",
+      "imageUrl": "https://images.unsplash.com/photo-1532347922424-c652d9b7208e?q=80",
+      "description": "Assorted marinated meats grilled at the table, served with banchan side dishes, lettuce wraps, and dipping sauces"
+    },
+    {
+      "name": "Poke Bowl",
+      "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80",
+      "description": "Hawaiian dish of diced raw fish, rice, seaweed, cucumber, avocado, and various toppings with soy-sesame dressing"
+    },
+    {
+      "name": "Beef Wellington",
+      "imageUrl": "https://images.unsplash.com/photo-1624374053855-39a5a1a41402?q=80",
+      "description": "Beef tenderloin coated with mushroom duxelles and wrapped in prosciutto and puff pastry, baked until golden brown"
+    },
+    {
+      "name": "Borscht",
+      "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80",
+      "description": "Ukrainian beet soup with cabbage, potatoes, and other vegetables, served hot or cold with sour cream and fresh dill"
+    },
+    {
+      "name": "Xiaolongbao",
+      "imageUrl": "https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80",
+      "description": "Shanghai soup dumplings filled with pork and flavorful gelatinized broth that becomes liquid when steamed"
+    },
+    {
+      "name": "Lamb Tagine",
+      "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80",
+      "description": "Moroccan slow"
+    } 
     ]
 }
