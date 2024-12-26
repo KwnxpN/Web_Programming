@@ -3,17 +3,20 @@
         {
           "name": "Beef Burger",
           "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80",
-          "description": "Juicy ground beef patty with melted cheese, fresh lettuce, tomatoes, onions, and pickles, served on a toasted brioche bun with special sauce"
+          "description": "Juicy ground beef patty with melted cheese, fresh lettuce, tomatoes, onions, and pickles, served on a toasted brioche bun with special sauce",
+          "place": "./img/first_place.png"
         },
         {
           "name": "Fish and Chips",
           "imageUrl": "https://images.unsplash.com/photo-1579208030886-b937da0925dc?q=80",
-          "description": "Beer-battered cod fillets fried until golden and crispy, served with thick-cut potato chips, tartar sauce, and malt vinegar"
+          "description": "Beer-battered cod fillets fried until golden and crispy, served with thick-cut potato chips, tartar sauce, and malt vinegar",
+          "place": "./img/second_place.png"
         },
         {
           "name": "Pad Kra Pao",
-          "imageUrl": "https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?q=80",
-          "description": "Thai holy basil stir-fry with minced chicken or pork, chili, garlic, served over rice and topped with a fried egg"
+          "imageUrl": "https://th.bing.com/th/id/OIP.YHE_QiVXwGHG2D41fehM9AHaFD?w=254&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+          "description": "Thai holy basil stir-fry with minced chicken or pork, chili, garlic, served over rice and topped with a fried egg",
+          "place": "./img/third_place.png"
         }
   ]
 }
