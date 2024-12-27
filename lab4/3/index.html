@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตารางรายรับ-รายจ่าย</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ตารางรายรับ-รายจ่าย</h1>
+        <div class="balance-box">
+            <h2>ยอดคงเหลือ</h2>
+            <div class="balance" id="totalBalance">7850</div>
+        </div>
+        
+        <div class="input-form">
+            <input type="text" id="description" placeholder="รายการ">
+            <input type="number" id="amount" placeholder="จำนวน">
+            <select id="type">
+                <option value="expense">รายจ่าย</option>
+                <option value="income">รายรับ</option>
+            </select>
+            <input type="date" id="transactionDate">
+            <button onclick="addTransaction()" class="add-btn">เพิ่มรายการ</button>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>วันที่</th>
+                        <th>รายการ</th>
+                        <th>รายรับ</th>
+                        <th>รายจ่าย</th>
+                    </tr>
+                </thead>
+                <tbody id="transactionTable">
+                    <!-- Transactions will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

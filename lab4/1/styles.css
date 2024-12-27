@@ -1,0 +1,14 @@
+.enter_field {
+    width: 250px;
+}   
+
+.number {
+    display: flex;
+    height: 40px;
+}
+
+.num {
+    margin-top: 15px;
+    margin-left: 3px;
+    height: 15px;
+}

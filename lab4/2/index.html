@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+    <div class="grid justify-center items-center">
+        <div class="flex m-10">
+            <p class="p-2 mr-8" id="firstNameLabel">ชื่อ:</p>
+            <input type="text" class="border-2 border-gray-300">
+        </div>
+        <div class="flex m-10">
+            <p class="p-2" id="lastNameLabel">นามสกุล:</p>
+            <input type="text" class="border-2 border-gray-300">
+        </div>
+        <div class="flex m-10">
+            <label for="country" class="form-label p-2" id="countryLabel">ประเทศ:</label>
+            <select name="form-select" id="country" required onchange="changeLanguage(this.value)">
+                <option value="">เลือกประเทศ</option>
+                <option value="th">ไทย</option>
+                <option value="vi">เวียดนาม</option>
+                <option value="lo">ลาว</option>
+                <option value="ms">มาเลย์เซีย</option>
+                <option value="sg">สิงคโปร์</option>
+                <option value="ph">ฟิลิปปินส์</option>
+                <option value="my">เมียนมาร์</option>
+                <option value="kh">กัมพูชา</option>
+                <option value="bn">บรูไน</option>
+            </select>
+        </div>
+        <div id="translation" class="text-center">
+            <button id="language-toggle" onclick="toggleLanguage()" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+                เปลี่ยนเป็นอังกฤษ
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            th: {
+                firstName: "ชื่อ:",
+                lastName: "นามสกุล:",
+                country: "ประเทศ:",
+                button: "เปลี่ยนเป็นอังกฤษ"
+            },
+            vi: {
+                firstName: "Tên:",
+                lastName: "Họ:",
+                country: "Quốc gia:"
+            },
+            lo: {
+                firstName: "ຊື່:",
+                lastName: "ນາມສະກຸນ:",
+                country: "ປະເທດ:"
+            },
+            ms: {
+                firstName: "Nama:",
+                lastName: "Nama keluarga:",
+                country: "Negara:"
+            },
+            sg: {
+                firstName: "First Name:",
+                lastName: "Last Name:",
+                country: "Country:"
+            },
+            ph: {
+                firstName: "Pangalan:",
+                lastName: "Apelyido:",
+                country: "Bansa:"
+            },
+            my: {
+                firstName: "နာမည်:",
+                lastName: "မျိုးနွယ်အမည်:",
+                country: "နိုင်ငံ:"
+            },
+            kh: {
+                firstName: "ឈ្មោះ:",
+                lastName: "នាមត្រកូល:",
+                country: "ប្រទេស:"
+            },
+            bn: {
+                firstName: "Nama:",
+                lastName: "Nama keluarga:",
+                country: "Negara:"
+            },
+            en: {
+                firstName: "First Name:",
+                lastName: "Last Name:",
+                country: "Country:",
+                button: "Change to Thai"
+            }
+        };
+
+        function changeLanguage(lang) {
+            if (!lang) return;
+            const labels = translations[lang];
+            document.getElementById('firstNameLabel').textContent = labels.firstName;
+            document.getElementById('lastNameLabel').textContent = labels.lastName;
+            document.getElementById('countryLabel').textContent = labels.country;
+        }
+
+        let isEnglish = false;
+
+        function toggleLanguage() {
+            // Remove existing button
+            const translationDiv = document.getElementById('translation');
+            translationDiv.innerHTML = '';
+
+            // Create new button with updated properties
+            const newButton = document.createElement('button');
+            newButton.onclick = toggleLanguage;
+            newButton.className = 'px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600';
+
+            if (isEnglish) {
+                // Change to Thai
+                const labels = translations['th'];
+                document.getElementById('firstNameLabel').textContent = labels.firstName;
+                document.getElementById('lastNameLabel').textContent = labels.lastName;
+                document.getElementById('countryLabel').textContent = labels.country;
+                newButton.textContent = labels.button;
+            } else {
+                // Change to English
+                const labels = translations['en'];
+                document.getElementById('firstNameLabel').textContent = labels.firstName;
+                document.getElementById('lastNameLabel').textContent = labels.lastName;
+                document.getElementById('countryLabel').textContent = labels.country;
+                newButton.textContent = labels.button;
+            }
+
+            // Append new button and toggle state
+            translationDiv.appendChild(newButton);
+            isEnglish = !isEnglish;
+        }
+    </script>
+</body>
+</html>
