@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5_2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .avatar-container {
+            text-align: center;
+        }
+
+        .avatar {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .student-info {
+            padding: 20px;
+        }
+
+        .student-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+
+        .score-item {
+            margin: 8px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="studentContainer">
+        <!-- Student cards will be inserted here -->
+    </div>
+
+    <script>
+        const jsonFilePath = 'student_score.json';
+
+        const defaultImages = {
+            male: 'img/img_male.png',
+            female: 'img/img_female.png'
+        };
+
+        async function loadStudentData() {
+            try {
+                const response = await fetch(jsonFilePath);
+                const students = await response.json();
+                
+                const container = document.getElementById('studentContainer');
+                container.innerHTML = '';
+                
+                students.forEach((student, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    
+                    const avatarImage = student.image || 
+                        (student.gender.toLowerCase() === 'male' ? defaultImages.male : defaultImages.female);
+                    
+                    card.innerHTML = `
+                        <div class="avatar-container">
+                            <img src="${avatarImage}" alt="${student.name}" class="avatar">
+                        </div>
+                        <div class="student-info">
+                            <h2 class="student-name">${index + 1}. ${student.name}</h2>
+                            <div class="score-item">Physics: ${student.physics}</div>
+                            <div class="score-item">Mathematics: ${student.mathematics}</div>
+                            <div class="score-item">English: ${student.english}</div>
+                        </div>
+                    `;
+                    
+                    container.appendChild(card);
+                });
+            } catch (error) {
+                console.error('Error loading student data:', error);
+            }
+        }
+
+        window.addEventListener('load', loadStudentData);
+    </script>
+</body>
+</html>

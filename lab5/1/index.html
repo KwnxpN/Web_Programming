@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Position</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+
+    <script>
+        const jsonFilePath = 'employees.json';
+
+        async function loadEmployeeData() {
+            try {
+                // TODO: Add your fetch call here
+                const response = await fetch(jsonFilePath);
+                const employees = await response.json();
+                
+                const tableBody = document.getElementById('tableBody');
+                
+                tableBody.innerHTML = '';
+                
+                employees.forEach(employee => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${employee.id}</td>
+                        <td>${employee.FirstName} ${employee.LastName}</td>
+                        <td>${employee.Gender}</td>
+                        <td>${employee.Position}</td>
+                        <td>${employee.Address}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error loading employee data:', error);
+            }
+        }
+
+        window.addEventListener('load', loadEmployeeData);
+    </script>
+</body>
+</html>
