@@ -1,4 +1,16 @@
 document.addEventListener('DOMContentLoaded', async function () {
+    
+    window.addEventListener('beforeunload', function() {
+        sessionStorage.setItem('scrollPosition', window.scrollY);
+    });
+
+    if (performance.navigation.type === 2) {
+        const scrollPosition = sessionStorage.getItem('scrollPosition');
+        if (scrollPosition) {
+            window.scrollTo(0, parseInt(scrollPosition));
+        }
+    }
+
     function createMenuItem(item, isTop = false) {
         const div = document.createElement('div');
         div.className = `rounded-2xl overflow-hidden shadow-lg bg-gray-200 hover:scale-105 hover:shadow-xl transition-all duration-300`;
@@ -53,7 +65,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     try {
-        // Fetch data in parallel
         const [topResponse, allMenuResponse] = await Promise.all([
             fetch('./top_menu.json'),
             fetch('./foods.json')
@@ -74,16 +85,12 @@ document.addEventListener('DOMContentLoaded', async function () {
             throw new Error('Required containers not found');
         }
 
-        // Create document fragments for batch DOM updates
         const topMenuFragment = document.createDocumentFragment();
 
-        // Render top menu items
         topMenuItems.forEach(item => {
             topMenuFragment.appendChild(createMenuItem(item, true));
-            
         });
 
-        // Batch render all menu items in chunks
         const chunkSize = 10;
         const totalChunks = Math.ceil(allMenuItems.length / chunkSize);
 
@@ -98,24 +105,24 @@ document.addEventListener('DOMContentLoaded', async function () {
             
             allMenuContainer.appendChild(chunkFragment);
 
-            // Continue rendering next chunk if available
             if (chunkIndex + 1 < totalChunks) {
                 requestAnimationFrame(() => renderChunk(chunkIndex + 1));
             } else {
-                // Initialize lazy loading after all chunks are rendered
                 lazyLoad();
+                
+                const scrollPosition = sessionStorage.getItem('scrollPosition');
+                if (scrollPosition && performance.navigation.type === 2) {
+                    window.scrollTo(0, parseInt(scrollPosition));
+                }
             }
         }
 
-        // Render top menu immediately
         topMenuContainer.appendChild(topMenuFragment);
 
-        // Start rendering all menu items in chunks
         requestAnimationFrame(() => renderChunk(0));
 
     } catch (error) {
         console.error('Error loading menu items:', error);
-        // Display user-friendly error message
         const errorMessage = document.createElement('div');
         errorMessage.className = 'text-red-500 p-4 text-center';
         errorMessage.textContent = 'Unable to load menu items. Please try again later.';
