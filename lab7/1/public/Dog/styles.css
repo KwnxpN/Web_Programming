@@ -47,9 +47,21 @@ h1 {
     font-weight: 500;
 }
 
+.back {
+    display: flex;
+    margin: 20px;
+    margin-left: 75px;
+}
+
 @media (max-width: 1024px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .back {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 20px;
     }
 }
 

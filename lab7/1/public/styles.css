@@ -43,7 +43,6 @@ nav {
 }
 
 .para {
-    background-color: red;
     display: flex;
     width: 80%;
     justify-self: center;
@@ -52,5 +51,5 @@ nav {
 }
 
 .para p {
-    font-size: large;
+    font-size: x-large;
 }
