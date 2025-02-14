@@ -1,0 +1,13 @@
+
+<%- include("moodeng") %>
+
+<body>
+<!-- สร้างตารางสำหรับแสดงข้อมูล -->
+
+<% data.forEach((item)=>{ %>
+    
+    <%=item.id%> <%=item.name%>
+
+<% }); %>
+
+</body>

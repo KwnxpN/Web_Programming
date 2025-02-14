@@ -1,0 +1,17 @@
+<script src="http://webdev.it.kmitl.ac.th/lab/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<body>
+    <div class="ml-2">
+        <h1>Users Detail</h1>
+    </div>
+    <% data.forEach(user => { %>
+        <div class="user-details pl-4">
+            <p><strong>ID:</strong> <%= user.id %></p>
+            <p><strong>First Name:</strong> <%= user.first_name %></p>
+            <p><strong>Last Name:</strong> <%= user.last_name %></p>
+            <p><strong>Email:</strong> <%= user.email %></p>
+            <a href="/show">Back to users list</a>
+        </div>
+    <% }); %>
+</body>
