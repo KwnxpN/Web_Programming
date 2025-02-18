@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10/2</title>
+</head>
+<body class="container">
+    <h1>Questions</h1>
+    <% data.forEach((item)=>{ %>
+        <div>
+            <h3><%= item.QID %>. <%= item.Stem %></h3>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="q<%= item.QID %>" value="a">
+                <label class="form-check-label fs-5" for="q<%= item.QID %>">
+                    <%= item.Alt_A %>
+                </label>
+                <br>
+                <input class="form-check-input" type="radio" name="q<%= item.QID %>" value="b">
+                <label class="form-check-label fs-5" for="q<%= item.QID %>">
+                    <%= item.Alt_B %>
+                </label>
+                <br>
+                <input class="form-check-input" type="radio" name="q<%= item.QID %>" value="c">
+                <label class="form-check-label fs-5" for="q<%= item.QID %>">
+                    <%= item.Alt_C %>
+                </label>
+                <br>
+                <input class="form-check-input" type="radio" name="q<%= item.QID %>" value="d">
+                <label class="form-check-label fs-5" for="q<%= item.QID %>">
+                    <%= item.Alt_D %>
+                </label>
+            </div>
+        </div>
+    <% }); %>
+</body>
+<script src="http://webdev.it.kmitl.ac.th/lab/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://webdev.it.kmitl.ac.th/lab/bootstrap/css/bootstrap.min.css">
+</html>
